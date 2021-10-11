@@ -1,0 +1,6 @@
+region = "eu-central-1"
+main_vpc_cidr = "10.0.0.0/16"
+public_subnets = "10.0.10.0/24"
+private_subnets = "10.0.20.0/24"
+s3_bucket = "alex-bucket-for-terraform-tests"
+s3_key = "aws-services-learning"
