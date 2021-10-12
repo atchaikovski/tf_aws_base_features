@@ -6,8 +6,8 @@ provider "terraform" {}
 
 terraform {
   backend "s3" {
-    bucket = "alex-bucket-for-terraform-tests"
-    key    = "aws-services-learning"
-    region = "eu-central-1"
+    bucket = "alex-bucket-for-terraform-tests-us"
+    key    = "aws-services-learning-us"
+    region = "us-east-1"
   }
 }
